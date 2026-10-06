@@ -39,6 +39,10 @@ export default class TablaMultiplicarV2 extends Component {
         numeros: [] 
     } 
 
+    componentDidMount = () => {
+        this.generarNumeros();
+    }
+
     render() { 
         return ( 
             <div> 
